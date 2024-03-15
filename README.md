@@ -1,7 +1,7 @@
 # Supercharge your CLI for Kubernetes
 
 A collection of config files and script to go with the following presentation:
-(add link here)
+[Supercharge your CLI for Kubernetes](slideshow/supercharge-your-cli-for-kubernetes-FR.pdf) (Sorry, it's only in French for now)
 
 The goal is to customize our shell to work efficiently with a large number of Kubernetes clusters using [Kubeswitch](https://github.com/danielfoehrKn/kubeswitch).
 
