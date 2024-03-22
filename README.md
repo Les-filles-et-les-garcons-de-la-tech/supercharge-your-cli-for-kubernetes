@@ -7,16 +7,24 @@ A collection of config files and script to go with the following presentation:
 
 The goal is to customize our shell to work efficiently with a large number of Kubernetes clusters using [Kubeswitch](https://github.com/danielfoehrKn/kubeswitch).
 
-Kubeswitch allows you to have a different kubectl context for each terminal windows, which is really usefull when working with a lot of different kubernetes clusters. You can open a new terminal to solve a production problem while keeping you other terminal in the context of the test you were running.
+Instructions included for:
 
-It does that by creating temp kubeconfig files and changing local environment variables to point to this config file.
+* [Linux](#linux) 
+* [MacOS](#macos)
+* [Windows](#windows)
+
+## What is Kubeswitch? 
+
+Kubeswitch allows you to have a different kubectl contexts for each terminal, which is really usefull when working with a lot of different kubernetes clusters. You can open a new terminal to solve a production problem while keeping you other terminal in the context of the test you were running.
+
+Kubeswitch does that by creating temp kubeconfig files and changing local environment variables to point to this config file.
 
 It also allows you to use several kubeconfig files, organize them in folders, easily switch between context and more.
 
-As a side effect, you need to display the current kubecontext in your shell if you don't want to get confused and run commands on production while you thought you were on your test cluster!
+As a side effect, you need to display the current kubecontext in your shell if you don't want to get confused! You don't want to run commands on production while you thought you were on your test cluster!
 
-It's available for Linux and Mac.
-FGtech provides a [Windows version of Kubeswitch](https://github.com/Les-filles-et-les-garcons-de-la-tech/kubeswitch). A [Pull Request is openned on the main project](https://github.com/danielfoehrKn/kubeswitch/pull/110), but wasn't approved yet when I wrote these lines.
+Kubeswitch is available for Linux and Mac in the official repository.
+FGtech provides a [Windows version of Kubeswitch](https://github.com/Les-filles-et-les-garcons-de-la-tech/kubeswitch). A [Pull Request is openned on the main project](https://github.com/danielfoehrKn/kubeswitch/pull/110), but wasn't approved yet as I write these lines.
 
 ## Linux
 
@@ -32,7 +40,7 @@ If you are using MacOs, follow the [instructions for MacOs](Macos/README.md)
 
 ## Windows
 
-If you are using windows, follow the [instructions for Windows](windows/README.md)
+If you are using Windows, follow the [instructions for Windows](Windows/README.md)
 
 ![powershell](Fully_customized_poweshell.png)
 
